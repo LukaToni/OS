@@ -1,3 +1,26 @@
+1. Ustvarite tako direktorijsko strukturo, da vam bo ukaz tree t1 izpisal naslednje drevo    
+
+t1
+|_t2
+|_t3
+| |_t5
+| |_t6
+|_t4
+
+2. Uporabite ukaz tree tako, da vam izpiše samo prvi nivo drevesa.
+
+3. Napiši ukaz, ki izpiše naslednje sklope podatkov:
+
+ime predmeta;
+vpisna številka, ime in priimek;
+študijski program oz. smer.
+Vsak sklop naj bo v svoji vrstici, vpisna številka in ime pa naj bosta med seboj ločena z znakom tab (tabulator). Izpis izvedite le z enim ukazom.
+
+a) Nalogo izvedi z ukazom echo.
+b) Nalogo izvedi z ukazom printf.
+
+//----------------------------------------------//
+
 mkdir -p t1/{t2,t3/{t5,t6},t4}
 
 tree -L 1
