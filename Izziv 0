@@ -1,0 +1,7 @@
+mkdir -p t1/{t2,t3/{t5,t6},t4}
+
+tree -L 1
+
+echo -e ' OS \n 63120258 \t Luka \b Toni \n IŠRM'
+
+printf 'OS \n 63120258 \t Luka \b Toni \n IŠRM\n'
